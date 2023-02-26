@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700;800&display=swap" rel="stylesheet">
+    <title>CABTEC SISTEMA DE IMPRESSÃO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/button.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Logo Cabtec" />
+        <h1>SISTEMA DE IMPRESSÃO</h1>
+        <p>By: @pdccaio</p>
+    </header>
+    <main>
+        <div class="label">
+            <div class="label-wrapper">
+                <p id="labelNome">Nome</p>
+                <p id="labelIdade">idade</p>
+            </div>
+            <p id="labelNExame">numero do exame</p>
+        </div>
+
+        <section class="forms">
+            <form action="">
+                <span>NOME: </span><input type="text" id="nome" name="nome"> <br>
+                <span>IDADE: </span><input type="text" id="idade" name="idade"> <br>
+                <span id="exame">Nº EXAME: </span><input type="text" id="nExame" name="nExame"><br>
+
+
+                <p id="button" onclick="enviar()">ENVIAR</p>
+            </form>
+        </section>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

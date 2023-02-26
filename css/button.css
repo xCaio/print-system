@@ -1,0 +1,17 @@
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 4px;
+    transition: 0.1s;
+}
+#button:hover{
+    transform: scale(1.1);
+    background-color: #F58228;
+    color: #FFF;
+}
